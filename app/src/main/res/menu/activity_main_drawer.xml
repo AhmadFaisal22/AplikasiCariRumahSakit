@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_action_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_favorite"
+            android:icon="@drawable/ic_action_name_favorite"
+            android:title="Rumah Sakit Favorite" />
+        <item
+            android:id="@+id/nav_peta"
+            android:icon="@drawable/ic_action_lokasi"
+            android:title="Peta Rumah Sakit" />
+    </group>
+
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/nav_keluar"
+                android:icon="@drawable/ic_action_keluar"
+                android:title="Keluar" />
+        </menu>
+    </item>
+
+</menu>
