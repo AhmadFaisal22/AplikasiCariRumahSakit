@@ -28,11 +28,9 @@ public class DetailRumahActivity extends AppCompatActivity {
     String idRumah;
     private ShineButton btnFavorit;
 
-    private static final String TAG = "DetailRumahSakitActicity";
     private static final String TAG_PREF = "setting";
     private static final String TAG_FAV = "favorite";
-    /*Boolean isFav=true;
-    FloatingActionButton fab;*/
+
     DatabaseHelper database = new DatabaseHelper(this);
     SharedPreferences pref;
 
